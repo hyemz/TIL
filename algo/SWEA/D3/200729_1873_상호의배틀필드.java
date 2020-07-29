@@ -49,8 +49,8 @@ public class SWEA_1873 {
 			System.out.println(y);
 			
 			// 문자열 배열 하나씩 저장하기
-//			int num = sc.nextInt();
-//			String[] info = sc.next().split("");
+			int num = sc.nextInt();
+			String[] info = sc.next().split("");
 //
 //			// 전차의 움직임
 //			int nx = x + dx[d];
