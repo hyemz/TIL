@@ -1,5 +1,3 @@
-package com.ssafy.algo;
-
 import java.util.Scanner;
 
 public class flyKill {
