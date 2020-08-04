@@ -1,4 +1,3 @@
-package com.ssafy;
 
 import java.util.Scanner;
 
@@ -20,11 +19,11 @@ public class religion {
 		for (int i = 0; i < M; i++) {
 			int one = find(sc.nextInt());
 			int two = find(sc.nextInt());
-			
+
 			if (one != two) {
 				n[two] = one;
 				cnt--;
-			} 
+			}
 		}
 		System.out.println(cnt);
 	}
