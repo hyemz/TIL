@@ -1,4 +1,3 @@
-package com.ssafy.algo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
