@@ -22,18 +22,23 @@ public class 요세푸스문제0 {
 			q.add(i);
 		}
 		
-		System.out.print("<");
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append("<");
 		while(!q.isEmpty()) {
 			for(int i = 0; i < k-1; i++) {
 				q.add(q.poll());
 			}
 			if(q.size() == 1) {
-				System.out.print(q.poll());
+//				System.out.print(q.poll());
+				sb.append(q.poll());
 			} else {
-			System.out.print(q.poll() + ", ");
+//			System.out.print(q.poll() + ", ");
+				sb.append(q.poll()).append(", ");
 			}
 		}
-		System.out.print(">");
+		sb.append(">");
+		System.out.println(sb.toString());
 		
 		
 	}
